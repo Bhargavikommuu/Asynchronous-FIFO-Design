@@ -1,25 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 10.08.2025 21:40:04
-// Design Name: 
-// Module Name: two_ff_sync
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-
 module two_ff_sync(
     input wire clk_i,
     input wire rst_n,
@@ -40,4 +19,5 @@ module two_ff_sync(
                     sync_ff[0] <= sync_ff[1];
                 end
         end
+
 endmodule
