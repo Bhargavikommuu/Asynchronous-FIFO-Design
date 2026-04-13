@@ -1,1 +1,1 @@
-# Asynchronous-FIFO-Design
+Asynchronous FIFO design in Verilog for reliable data transfer across different clock domains, featuring full/empty flag generation, clock-domain crossing (CDC) techniques, and complete testbench with simulation support.
